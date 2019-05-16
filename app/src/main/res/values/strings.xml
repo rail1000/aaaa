@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="rate_a">rate_a</string>
+    <string name="rate_b">rate_b</string>
+
+
+    <string name="rate_c">rate_c</string>
+    <string name="rate_d">rate_d</string>
+
+    <string name="save">save</string>
+
+    <string name="input">input:</string>
+    <string name="rate">rmb is</string>
+    <string name="inp">input</string>
+</resources>
