@@ -121,7 +121,21 @@ public class MainActivity extends AppCompatActivity implements Runnable{
         else if(item.getItemId() == R.id.list){
             Intent list = new Intent(this,MyList2Activity.class);
             startActivity(list);
+            /*
 
+            RateItem item1 = new RateItem("aaa","123");
+            RateManager manager = new RateManager(this);
+            manager.add(item1);
+            manager.add(new RateItem("bbb","456"));
+
+            //查询所有数据
+            List<RateItem> testList = manager.listAll();
+            for(RateItem i:testList){
+                Log.i("tag","onOptionsItemSelected:[id = "+i.getId());
+
+
+            }
+            */
         }
         return super.onOptionsItemSelected(item);
     }
